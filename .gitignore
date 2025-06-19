@@ -1,0 +1,49 @@
+# Log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for placing bundled dependencies used by tools
+.bundle
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# npm-cache directory
+.npm
+
+# yarn-cache directory
+.yarn-cache
+
+# pnpm-store directory
+.pnpm-store
+
+# node-gyp files
+.lock-waf_tools
+.waf-tools
+/build/Release
+
+# node-pre-gyp files
+build/stage_release
